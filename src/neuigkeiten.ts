@@ -5,6 +5,29 @@ export interface NewsEntry { id: string; titel: string; punkte: string[] }
 
 export const NEWS: NewsEntry[] = [
   {
+    id: "2026-11-29e",
+    titel: "Abspielen mit Tempo",
+    punkte: [
+      "Beim Abspielen einer Strecke kannst du das Tempo wählen: ×1, ×2, ×3, ×5 oder ×10. Antippen schaltet weiter, die App merkt sich deine Wahl.",
+      "Die Kamera kommt jetzt von oben herunter, dreht sich zum Start und geht beim Losfahren noch etwas näher ran.",
+    ],
+  },
+  {
+    id: "2026-11-29d",
+    titel: "Schlaf von Fitbit und Pixel Watch",
+    punkte: [
+      "Mit Google Health erscheinen jetzt Schlaf und Trainings, die bisher gefehlt haben. Ältere Nächte holt die App nach und nach von selbst nach, ohne neu bei Google zu laden.",
+    ],
+  },
+  {
+    id: "2026-11-29c",
+    titel: "Einen Tag als Datei verschicken",
+    punkte: [
+      "Unter Konto → Datenquellen → „Tag exportieren“ legst du alle Daten eines Tages in eine Datei und schickst sie übers Teilen-Menü weiter, zum Beispiel an Pablo und Eddie, damit sie sehen, was deine Uhr alles liefert.",
+      "Mit Google Health (Fitbit, Pixel Watch) fragt die App dafür auf Wunsch jede Datenart des Tages einzeln bei Google ab. Die Datei enthält deine Gesundheitsdaten, teile sie nur mit Menschen, denen du vertraust.",
+    ],
+  },
+  {
     id: "2026-11-29b",
     titel: "Farben für deinen Bereich",
     punkte: [
